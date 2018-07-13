@@ -1,46 +1,60 @@
-# Contributor Covenant Code of Conduct
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Page Not Found</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
 
-## Our Pledge
+        * {
+            line-height: 1.2;
+            margin: 0;
+        }
 
-In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
+        html {
+            color: #888;
+            display: table;
+            font-family: sans-serif;
+            height: 100%;
+            text-align: center;
+            width: 100%;
+        }
 
-## Our Standards
+        body {
+            display: table-cell;
+            vertical-align: middle;
+            margin: 2em auto;
+        }
 
-Examples of behavior that contributes to creating a positive environment include:
+        h1 {
+            color: #555;
+            font-size: 2em;
+            font-weight: 400;
+        }
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the community
-* Showing empathy towards other community members
+        p {
+            margin: 0 auto;
+            width: 280px;
+        }
 
-Examples of unacceptable behavior by participants include:
+        @media only screen and (max-width: 280px) {
 
-* The use of sexualized language or imagery and unwelcome sexual attention or advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic address, without explicit permission
-* Other conduct which could reasonably be considered inappropriate in a professional setting
+            body, p {
+                width: 95%;
+            }
 
-## Our Responsibilities
+            h1 {
+                font-size: 1.5em;
+                margin: 0 0 0.3em;
+            }
 
-Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
+        }
 
-Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
-
-## Scope
-
-This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community. Examples of representing a project or community include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of a project may be further defined and clarified by project maintainers.
-
-## Enforcement
-
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at h5bp@htmlcssjavascript.com. The project team will review and investigate all complaints, and will respond in a way that it deems appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
-
-Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
-
-## Attribution
-
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4, available at [https://contributor-covenant.org/version/1/4][version]
-
-[homepage]: https://contributor-covenant.org
-[version]: https://contributor-covenant.org/version/1/4/
+    </style>
+</head>
+<body>
+    <h1>Page Not Found</h1>
+    <p>Sorry, but the page you were trying to view does not exist.</p>
+</body>
+</html>
+<!-- IE needs 512+ bytes: https://blogs.msdn.microsoft.com/ieinternals/2010/08/18/friendly-http-error-pages/ -->
